@@ -1,13 +1,13 @@
 # Site settings
-name: Xing Blog
+name: XY Blog
 email: liuxm0315@hotmail.com
 author: Xingmin Liu
-url: https://gitee.com/liuxingmin
+url: https://liuxm0239.github.io/XY_blog/
 #resume_site: http://www.hifreud.com/Resume.io/
 github: https://github.com/liuxm0239
-baseurl: "/xing-blog.gitee.io"
+baseurl: "/XY_blog"
 description: 为学日益，为道日损。
-meta_description: 个人博客;What we do not understand we do not possess.
+meta_description: 个人博客; What we do not understand we do not possess.
 motto: Experience keeps a dear school, but fools will learn in no other.
 banner: No Silver Bullet.
 
