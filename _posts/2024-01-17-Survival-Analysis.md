@@ -1,11 +1,11 @@
 ---
 layout: post
 #标题配置
-title:  Becoming a Data Scientist(rp)
+title:  生存分析
 #时间配置
-date:   2019-05-05 20:43:45 +0800
+date:   2024-01-17 11:18:45 +0800
 #大类配置
-categories: document
+categories: 统计学
 #小类配置
 tag: 教程
 ---
