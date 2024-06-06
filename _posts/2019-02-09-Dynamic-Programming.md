@@ -5,14 +5,13 @@ title:  动态规划 Dynamic Programming--从菜鸟到老鸟 [转载]
 #时间配置
 date:   2019-02-08 17:46:45 +0800
 #大类配置
-categories: 算法
+categories: 计算方法
 #小类配置
-tag: 编程
+tag: 动态规划
 ---
-
 * content
-{:toc}
-
+  {:toc}
+---
 Dynamic Programming--从菜鸟到老鸟 [转载]
 
 原文 [http://write.blog.csdn.net/mdeditor#!postId=75193592](http://write.blog.csdn.net/mdeditor#!postId=75193592)，作者：[HankingHu](https://blog.csdn.net/u013309870)
@@ -87,7 +86,7 @@ public static int Fibonacci(int n)
 {
             if(n<=0)
                             return n;
-                    int []Memo=new int[n+1];        
+                    int []Memo=new int[n+1];      
                             for(int i=0;i<=n;i++)
                                             Memo[i]=-1;
                                     return fib(n, Memo);
@@ -97,7 +96,7 @@ public static int Fibonacci(int n)
 
                     if(Memo[n]!=-1)
                                     return Memo[n];
-                        //如果已经求出了fib（n）的值直接返回，否则将求出的值保存在Memo备忘录中。               
+                        //如果已经求出了fib（n）的值直接返回，否则将求出的值保存在Memo备忘录中。             
                             if(n<=2)
                                             Memo[n]=1;
 
@@ -124,7 +123,7 @@ public static int fib(int n)
                                             for(int i=2;i<=n;i++)
                                                         {
                                                                         Memo[i]=Memo[i-1]+Memo[i-2];
-                                                                                }       
+                                                                                }     
                                                     return Memo[n];
 }
 ```
@@ -145,7 +144,7 @@ public static int fib(int n)
                                                                                 Memo_i=Memo_i_2+Memo_i_1;
                                                                                             Memo_i_2=Memo_i_1;
                                                                                                         Memo_i_1=Memo_i;
-                                                                                                                }       
+                                                                                                                }     
                                                             return Memo_i;
                                                                 }
 ```
@@ -192,7 +191,7 @@ public static int cutMemo(int []p)
         {
                     int []r=new int[p.length+1];
                             for(int i=0;i<=p.length;i++)
-                                            r[i]=-1;                        
+                                            r[i]=-1;                      
                                     return cut(p, p.length, r);
                                         }
     public static int cut(int []p,int n,int []r)
@@ -244,7 +243,7 @@ public static int buttom_up_cut(int []p)
 
 用动态规划求解最优化问题的第一步就是刻画最优解的结构，如果一个问题的解结构包含其子问题的最优解，就称此问题具有最优子结构性质。因此，某个问题是否适合应用动态规划算法，它是否具有最优子结构性质是一个很好的线索。使用动态规划算法时，用子问题的最优解来构造原问题的最优解。因此必须考查最优解中用到的所有子问题。
 
-* * *
+---
 
 **②重叠子问题**
 
@@ -306,16 +305,13 @@ T = minPTime * (N-2) + (totalSum-minPTime)
 
 ## **动态规划题集整理**
 
-    1、最长单调子序列 
-    [Constructing Roads In JG Kingdom](http://acm.hdu.edu.cn/showproblem.php?pid=1025)★★☆☆☆ 
+    1、最长单调子序列[Constructing Roads In JG Kingdom](http://acm.hdu.edu.cn/showproblem.php?pid=1025)★★☆☆☆ 
     [Stock Exchange](http://poj.org/problem?id=3903) ★★☆☆☆
 
-    2、最大M子段和 
-    [Max Sum](http://acm.hdu.edu.cn/showproblem.php?pid=1003) ★☆☆☆☆ 
+    2、最大M子段和[Max Sum](http://acm.hdu.edu.cn/showproblem.php?pid=1003) ★☆☆☆☆ 
     [最长公共子串](http://blog.csdn.net/u013309870/article/details/69479488) ★★☆☆☆
 
-    3、线性模型 
-    [Skiing](http://poj.org/problem?id=108Skiing) ★☆☆☆☆
+    3、线性模型[Skiing](http://poj.org/problem?id=108Skiing) ★☆☆☆☆
 
 ## **总结**
 

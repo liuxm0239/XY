@@ -5,13 +5,14 @@ title: Python argparse
 #时间配置
 date:   2019-02-10 14:00:45 +0800
 #大类配置
-categories: Python
+categories: 编程
 #小类配置
-tag: tips
+tag: python
 ---
 
 * content
 {:toc}
+---
 
 #[argparse(reprint)](http://wiki.jikexueyuan.com/project/explore-python/Standard-Modules/argparse.html)
 argparse 是 Python 内置的一个用于命令项选项与参数解析的模块，通过在程序中定义好我们需要的参数，argparse 将会从 sys.argv 中解析出这些参数，并自动生成帮助和使用信息。当然，Python 也有第三方的库可用于命令行解析，而且功能也更加强大，比如 docopt，Click。

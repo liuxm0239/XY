@@ -5,13 +5,14 @@ title:  Becoming a Data Scientist(rp)
 #时间配置
 date:   2019-05-05 20:43:45 +0800
 #大类配置
-categories: document
+categories: 统计学习
 #小类配置
-tag: 教程
+tag: 统计学习方法
 ---
 
 * content
 {:toc}
+---
 
 英文原文地址：[Becoming a Data Scientist](http://blog.yhat.com/posts/become-a-data-scientist.html)
 [image](https://vip.biotrainee.com/assets/images/3-9ZnDpJwh3OmS6Nk4.jpeg)

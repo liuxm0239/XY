@@ -5,9 +5,9 @@ title:  生存分析
 #时间配置
 date:   2024-01-17 11:18:45 +0800
 #大类配置
-categories: 统计学
+categories: 统计学习
 #小类配置
-tag: 教程
+tag: 统计学习方法
 ---
 
 * content
