@@ -5,9 +5,9 @@ title:  "Bismark: paired-end low mapping efficiency"
 #时间配置
 date:   2019-03-03 10:16:27 +0800
 #大类配置
-categories: 
+categories: [生物信息, 计算方法]
 #小类配置
-tag: 表观遗传学,Bioinfo
+tag: [表观遗传学, Bioinfo]
 ---
 * content
   {:toc}
