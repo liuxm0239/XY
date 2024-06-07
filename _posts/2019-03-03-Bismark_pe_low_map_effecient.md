@@ -9,9 +9,9 @@ categories: [生物信息, 计算方法]
 #小类配置
 tag: [表观遗传学, Bioinfo]
 ---
-* content
-  {:toc}
 
+* content
+{:toc}
 ---
 
 测试中发现有一批甲基化数据的比对率非常低，
