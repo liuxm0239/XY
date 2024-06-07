@@ -9,8 +9,9 @@ categories: 编程
 #小类配置
 tag: python
 ---
+
 * content
-  {:toc}
+{:toc}
 --- 
 
 python zen 函数，python 有很多简洁又功能强大的内置函数，本文介绍其中几个单行函数（含示例代码）

@@ -9,9 +9,11 @@ categories: 计算方法
 #小类配置
 tag: 动态规划
 ---
+
 * content
-  {:toc}
+{:toc}
 ---
+
 Dynamic Programming--从菜鸟到老鸟 [转载]
 
 原文 [http://write.blog.csdn.net/mdeditor#!postId=75193592](http://write.blog.csdn.net/mdeditor#!postId=75193592)，作者：[HankingHu](https://blog.csdn.net/u013309870)
